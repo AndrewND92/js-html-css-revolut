@@ -76,13 +76,13 @@
 .dropdown{
   position:absolute;
   top:55px;
-  right:-70px;
+  right:-40px;
   filter: drop-shadow(4px 4px 6px #707070);
   display: none;
 }
 
-.nav-denaro{
+.nav-icone{
   width: 200px;
   height: 400px;
-  background-color: red;
+  background-color: white;
 }
