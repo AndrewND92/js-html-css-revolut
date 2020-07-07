@@ -23,6 +23,13 @@
   text-decoration: none;
   color: grey;
 }
+.nav ul li a:hover{
+  color: black;
+}
+.nav .nav-sinistra ul li:first-child a{
+  color: black;
+}
+
 .nav-sinistra {
   height: 100%;
   width: 200px;
@@ -66,10 +73,16 @@
   line-height: 65px;
   color: white;
   background-color: black;
-  padding: 10px;
+  padding:10px 10px;
   border-radius: 10px;
   margin-left: 10px;
+  vertical-align: middle;
 }
+.seconda-nav .nav-destra a:hover{
+  background-color:#373737;
+  transition-duration:0.1s;
+}
+
 .p-dropdown{
   position: relative;
 }
@@ -100,10 +113,13 @@
   width: 130px;
 }
 
-
 .nav-icone{
   width: 250px;
   /* height: 400px; */
   background-color: white;
   padding: 15px;
+}
+
+.nav-sinistra .p-dropdown a:hover{
+  color: black;
 }
