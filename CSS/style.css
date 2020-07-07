@@ -86,6 +86,20 @@
   flex-direction: column;
   font-size: 10px;
 }
+/* modifiche delle larghezze dei dropdown rispetto al contenuto */
+#mod-width-risparmi{
+  width: 351px;
+}
+#mod-width-controllo{
+  width: 165px;
+}
+#mod-width-altro{
+  width: 265px;
+}
+#mod-width-plans{
+  width: 130px;
+}
+
 
 .nav-icone{
   width: 250px;
