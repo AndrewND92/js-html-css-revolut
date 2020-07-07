@@ -68,4 +68,21 @@
   background-color: black;
   padding: 10px;
   border-radius: 10px;
+  margin-left: 10px;
+}
+.p-dropdown{
+  position: relative;
+}
+.dropdown{
+  position:absolute;
+  top:55px;
+  right:-70px;
+  filter: drop-shadow(4px 4px 6px #707070);
+  display: none;
+}
+
+.nav-denaro{
+  width: 200px;
+  height: 400px;
+  background-color: red;
 }
