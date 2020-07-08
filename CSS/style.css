@@ -137,16 +137,18 @@
 /* parte centrale del main */
 
 main{
+  display: flex;
   width: 85%;
   margin: 0 auto;
 }
 .titolo-testo{
+  margin-top: 100px;
   width: 50%;
-  background-color: lightblue;
-  padding: 0 70px;
+  /* background-color: lightblue; */
+  padding: 0 50px;
+
 }
 .titolo-testo h1{
-  margin-top: 50px;
   font-size: 70px;
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -155,4 +157,13 @@ main{
   margin-top: 20px;
   font-size: 20px;
   text-align: center;
+}
+.jumbotron{
+  width: 50%;
+  margin-top: 45px;
+  text-align: center;
+}
+.jumbotron img {
+  width: 500px;
+  height: auto;
 }
