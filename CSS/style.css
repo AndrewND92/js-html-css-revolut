@@ -3,6 +3,7 @@
  margin: 0;
  box-sizing: border-box;
  text-decoration: none;
+ font-family: 'Roboto', sans-serif;
 }
 .nav{
   height: 70px;
@@ -14,7 +15,7 @@
 }
 .nav ul {
   display: flex;
-  justify-content: space-around;
+  justify-content:space-around;
   line-height: 65px;
   list-style: none;
   font-size: 20px;
@@ -44,19 +45,20 @@
 .seconda-nav {
   height: 70px;
   width: 100%;
-  background-color: lightblue;
+  /* background-color: lightblue; */
   display: flex;
   justify-content: space-between;
-  padding: 0 150px;
+  padding: 0 90px;
+  margin-top: 20px;
 }
 
 /* parte della seconda navbar */
 .mod-width{
-  width: 50%;
+  width: 70%;
 }
 .seconda-nav ul {
   display: flex;
-  justify-content:space-around;
+  justify-content:space-between;
   line-height: 65px;
   list-style: none;
   font-size: 20px;
@@ -66,6 +68,10 @@
   color: grey;
 }
 .seconda-nav h2 {
+  line-height: 70px;
+  font-weight: lighter;
+  font-size: 50px;
+  font-family: 'Teko', sans-serif;
   color: #1d1d1d;
 }
 .seconda-nav .nav-destra a {
@@ -90,7 +96,7 @@
   position:absolute;
   border-radius: 4px;
   top:55px;
-  right:-40px;
+  right:-95px;
   filter: drop-shadow(4px 4px 6px #707070);
   display: none;
 }
@@ -102,15 +108,19 @@
 /* modifiche delle larghezze dei dropdown rispetto al contenuto */
 #mod-width-risparmi{
   width: 351px;
+  right: -80px;
 }
 #mod-width-controllo{
   width: 165px;
+  right: -45px;
 }
 #mod-width-altro{
   width: 265px;
+  right: -110px;
 }
 #mod-width-plans{
   width: 130px;
+  right: -45px;
 }
 
 .nav-icone{
@@ -122,4 +132,27 @@
 
 .nav-sinistra .p-dropdown a:hover{
   color: black;
+}
+
+/* parte centrale del main */
+
+main{
+  width: 85%;
+  margin: 0 auto;
+}
+.titolo-testo{
+  width: 50%;
+  background-color: lightblue;
+  padding: 0 70px;
+}
+.titolo-testo h1{
+  margin-top: 50px;
+  font-size: 70px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+.titolo-testo p {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
 }
